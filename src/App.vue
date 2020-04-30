@@ -8,15 +8,17 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
+            <b-nav-item href="#" active>Home</b-nav-item>
             <b-nav-item href="#">Posts</b-nav-item>
-            <b-nav-item href="#">Disabled</b-nav-item>
+            <b-nav-item href="#">Add</b-nav-item>
           </b-navbar-nav>
-
         </b-collapse>
       </b-container>
     </b-navbar>
 
-    <b-container class="mt-3"></b-container>
+    <b-container class="mt-3">
+      <router-view></router-view>
+    </b-container>
   </div>
 </template>
 
