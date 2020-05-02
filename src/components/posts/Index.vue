@@ -46,8 +46,7 @@ export default {
 
   methods: {
     retrievePosts() {
-      PostService.getAll()
-      .then((result) => {
+      PostService.getAll().then((result) => {
         this.posts = result.data
         console.log(this.posts);
       }).catch((err) => {
