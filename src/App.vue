@@ -8,9 +8,9 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item href="#" active>Home</b-nav-item>
+            <b-nav-item href="/" active>Home</b-nav-item>
             <b-nav-item href="#">Posts</b-nav-item>
-            <b-nav-item href="#">Add</b-nav-item>
+            <b-nav-item href="/add">Add</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
